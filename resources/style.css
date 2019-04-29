@@ -5,7 +5,22 @@ html {
 }
 
 /*Header*/
-header p {
+header {
+  border: 1px solid red;
+  /*position: fixed;*/
+  width: 100%;
+  display: flex;
+  background-color: white;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header nav {
+  display: inline-flex;
+
+}
+
+header span {
   text-transform: uppercase;
   font-family: 'Ubuntu', sans-serif;
 }
