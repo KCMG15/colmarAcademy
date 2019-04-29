@@ -1,6 +1,14 @@
 /*Universal*/
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
 
 /*Header*/
+header p {
+  text-transform: uppercase;
+  font-family: 'Ubuntu', sans-serif;
+}
 
 /*Banner*/
 
