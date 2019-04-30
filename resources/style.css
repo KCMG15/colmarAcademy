@@ -26,7 +26,7 @@ header nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0 1.5rem;
+  margin: 1rem 1.5rem;
 }
 
 nav div {
@@ -36,7 +36,7 @@ nav div {
 
 ul li {
   display: inline;
-  padding-left: 1.5rem;
+  padding-left: 1rem;
 }
 
 header a {
@@ -48,7 +48,11 @@ header span {
   font-family: 'Ubuntu', sans-serif;
 }
 
-header span span {
+header .bold {
+  font-weight: 900;
+}
+
+header .light {
   color: hsl(0, 0%, 55%);
 }
 
