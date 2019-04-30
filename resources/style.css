@@ -18,18 +18,17 @@ a {
   text-decoration: none; /* Removes underline from links*/
 }
 
-section img {
-  width: 60%;
-  object-fit: contain;
-  margin: 2rem 1.5rem;
-}
-
 .panel-right {
-  width: 40%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 2.5rem;
 }
 
 .panel-right img {
   width: 35%;
+  margin: 1rem;
 }
 
 .right-text {
@@ -43,6 +42,7 @@ header {
   height: 4rem;
   background-color: white;
   position: fixed;
+  z-index: 2;
 }
 
 header nav {
@@ -90,6 +90,12 @@ header .light {
   top: 4rem;
 }
 
+.banner img {
+  width: 60%;
+  object-fit: contain;
+  margin: 2rem 1.5rem;
+}
+
 .banner-text {
   margin: auto;
   width: 40%;
@@ -100,12 +106,36 @@ header .light {
 .info {
   background-color: hsl(0, 0%, 100%);
   padding-top: 4rem;
+  width: 100%;
+  display: flex;
+
+  align-items: center;
+}
+
+.info-left {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.info-left img {
+  width: 100%;
+  object-fit: contain;
+  margin: 2rem 1.5rem;
 }
 
 .left-text {
-  width: 60%;
+  min-width: 100%;
   margin: 0 1.5rem;
 }
+
+.info-right {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+
 
 /*Courses Section*/
 
