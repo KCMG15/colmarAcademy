@@ -10,28 +10,9 @@ body {
   padding: 0;
 } /*Removes default margin and padding (that causes space above header).*/
 
-/*section {
-  width: 100%;
-}*/
-
 a {
   text-decoration: none; /* Removes underline from links*/
 }
-
-.flex{
-  display:flex;
-}
-
-ul li {
-  display: inline;
-  padding-left: 1rem;
-}
-
-.large-media img, .large-media video {
-  width: 40rem;
-  /*margin: 2rem 1.5rem;*/
-}
-
 /*Header*/
 header {
   line-height: 2rem;
@@ -39,7 +20,6 @@ header {
   height: 4rem;
   background-color: white;
   position: fixed;
-  z-index: 2;
 }
 
 header nav {
@@ -52,6 +32,11 @@ header nav {
 nav div {
   display: flex;
   align-items: center;
+}
+
+ul li {
+  display: inline;
+  padding-left: 1.5rem;
 }
 
 header a {
@@ -68,74 +53,8 @@ header span span {
 }
 
 /*Banner*/
-.banner {
-  background-color: hsl(0, 0%, 80%);
-  /*margin: 2rem;*/
-  position: relative;
-  top: 4rem;
-  width: 100%;
-}
-
-.banner-content {
-  width: 40rem;
-  margin: 2rem 1.5rem;
-}
-
-.banner-text {
-  margin: auto;
-  min-width: 20rem;
-  padding: 0 1.5rem;
-}
-
-.banner-text button {
-  width: 100%;
-  background-color: hsl(0, 0%, 20%);
-}
- .banner-text button a {
-   color: hsl(0, 0%, 95%);
-   line-height: 2rem;
- }
 
 /*General Section*/
-.general {
-  border: 1px solid red;
-  background-color: hsl(0, 0%, 100%);
-  padding-top: 4rem;
-
-}
-
-.general-left {
-  width: 40rem;
-  margin: 2rem 1.5rem;
-}
-
-.general-right {
-  flex-direction: column;
-
-}
-
-.panel-right {
-  min-width: 40%;
-  display: flex;
-
-}
-
-.panel-right img {
-  width: 10rem;
-  height: 10rem;
-  display: block;
-  padding: 1rem;
-}
-
-.right-text {
-  flex-direction: column;
-  width: 65%;
-  justify-content: center;
-}
-
-.lecturer {
-  background-color: hsl(0, 0%, 80%);
-}
 
 /*Courses Section*/
 
