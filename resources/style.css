@@ -20,7 +20,7 @@ a {
 
 section img {
   width: 60%;
-
+  object-fit: contain;
   margin: 2rem 1.5rem;
 }
 
@@ -83,16 +83,19 @@ header .light {
 .banner {
   background-color: hsl(0, 0%, 80%);
   width: 100%;
+  flex-direction: row;
+  align-items: center;
   position: relative;
   top: 4rem;
 }
 
-/*.banner img {
-  object-fit: contain;
-}*/
+.banner img {
+
+}
 
 .banner-text {
   margin: auto;
+  width: 40%;
 }
 
 
