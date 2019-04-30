@@ -13,6 +13,23 @@ body {
 a {
   text-decoration: none; /* Removes underline from links*/
 }
+
+section img {
+  width: 60%;
+}
+
+.panel-right {
+  width: 40%;
+}
+
+.panel-right img {
+  width: 35%;
+}
+
+.right-text {
+  width: 65%;
+}
+
 /*Header*/
 header {
   line-height: 2rem;
@@ -57,6 +74,8 @@ header .light {
 }
 
 /*Banner Section*/
+
+
 
 /*Inforation Section*/
 
