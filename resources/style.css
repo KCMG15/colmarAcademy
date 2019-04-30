@@ -2,23 +2,24 @@
 html {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
+  color: hsl(0, 0%, 20%);
 }
 
 body {
   margin: 0;
   padding: 0;
-}
+} /*Removes default margin and padding (that causes space above header).*/
 
+a {
+  text-decoration: none; /* Removes underline from links*/
+}
 /*Header*/
 header {
-  border: 1px solid red;
   line-height: 2rem;
   width: 100%;
   height: 4rem;
   background-color: white;
   position: fixed;
-
-
 }
 
 header nav {
@@ -38,9 +39,17 @@ ul li {
   padding-left: 1.5rem;
 }
 
+header a {
+  color: #4a4a4a;
+}
+
 header span {
   text-transform: uppercase;
   font-family: 'Ubuntu', sans-serif;
+}
+
+header span span {
+  color: hsl(0, 0%, 55%);
 }
 
 /*Banner*/
