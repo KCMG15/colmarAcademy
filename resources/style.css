@@ -18,12 +18,18 @@ a {
   text-decoration: none; /* Removes underline from links*/
 }
 
+p {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
 .panel-right {
   width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
   margin-left: 2.5rem;
+  border: 1px solid hsl(0, 0%, 80%);
 }
 
 .panel-right img {
@@ -101,14 +107,13 @@ header .light {
   width: 40%;
 }
 
-
-/*Inforation Section*/
+/*Information Section*/
 .info {
   background-color: hsl(0, 0%, 100%);
   padding-top: 4rem;
+  padding-bottom: 2rem;
   width: 100%;
   display: flex;
-
   align-items: center;
 }
 
@@ -135,9 +140,54 @@ header .light {
   flex-direction: column;
 }
 
-
+.lecture {
+  background-color: hsl(0, 0%, 80%);
+}
 
 /*Courses Section*/
+.courses {
+  background-color: hsl(0, 0%, 90%);
+  padding-top: 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.courses h1 {
+  border: 1px solid red;
+  width: 100%;
+  text-align: center;
+}
+
+.course-row {
+  display: flex;
+  max-width: 100%;
+  /*justify-content: space-between;*/
+  margin: 1rem 3rem;
+
+}
+
+.panel-courses {
+  background-color: hsl(0, 0%, 100%);
+}
+
+.row-1 .panel-courses {
+  margin: 1rem 1rem 0 1rem;
+}
+
+.row-2 .panel-courses {
+  margin: 0 1rem 1rem 1rem;
+}
+
+.panel-courses img {
+  height: auto;
+  width: 100%;
+  object-fit: contain;
+}
+
+.course-text {
+  margin: 1rem 1rem 1.5rem 1rem;
+}
 
 /*Thesis Section*/
 video {
