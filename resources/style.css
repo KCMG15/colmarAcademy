@@ -16,6 +16,7 @@ a {
 
 section img {
   width: 60%;
+  margin: 2rem 1.5rem;
 }
 
 .panel-right {
@@ -74,13 +75,24 @@ header .light {
 }
 
 /*Banner Section*/
-
+.banner {
+  background-color: hsl(0, 0%, 80%);
+  width: 100%;
+  position: relative;
+  top: 4rem;
+}
 
 
 /*Inforation Section*/
+.info {
+  background-color: hsl(0, 0%, 100%);
+}
 
 /*Courses Section*/
 
 /*Thesis Section*/
+video {
+  margin: 2rem 1.5rem;
+}
 
 /*Footer*/
