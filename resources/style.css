@@ -10,9 +10,9 @@ body {
   padding: 0;
 } /*Removes default margin and padding (that causes space above header).*/
 
-.flex{
+/*.flex{
   display: flex;
-}
+}*/
 
 a {
   text-decoration: none; /* Removes underline from links*/
@@ -83,14 +83,11 @@ header .light {
 .banner {
   background-color: hsl(0, 0%, 80%);
   width: 100%;
+  display: flex;
   flex-direction: row;
   align-items: center;
   position: relative;
   top: 4rem;
-}
-
-.banner img {
-
 }
 
 .banner-text {
@@ -102,6 +99,12 @@ header .light {
 /*Inforation Section*/
 .info {
   background-color: hsl(0, 0%, 100%);
+  padding-top: 4rem;
+}
+
+.left-text {
+  width: 60%;
+  margin: 0 1.5rem;
 }
 
 /*Courses Section*/
