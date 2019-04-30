@@ -10,12 +10,17 @@ body {
   padding: 0;
 } /*Removes default margin and padding (that causes space above header).*/
 
+.flex{
+  display: flex;
+}
+
 a {
   text-decoration: none; /* Removes underline from links*/
 }
 
 section img {
   width: 60%;
+
   margin: 2rem 1.5rem;
 }
 
@@ -80,6 +85,14 @@ header .light {
   width: 100%;
   position: relative;
   top: 4rem;
+}
+
+/*.banner img {
+  object-fit: contain;
+}*/
+
+.banner-text {
+  margin: auto;
 }
 
 
