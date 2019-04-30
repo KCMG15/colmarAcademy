@@ -13,6 +13,10 @@ body {
 a {
   text-decoration: none; /* Removes underline from links*/
 }
+
+#flex {
+  display:flex;
+}
 /*Header*/
 header {
   line-height: 2rem;
@@ -53,6 +57,7 @@ header span span {
 }
 
 /*Banner*/
+
 
 /*General Section*/
 
