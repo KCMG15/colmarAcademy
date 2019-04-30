@@ -14,9 +14,20 @@ a {
   text-decoration: none; /* Removes underline from links*/
 }
 
-#flex {
+.flex{
   display:flex;
 }
+
+ul li {
+  display: inline;
+  padding-left: 1rem;
+}
+
+.large-media img, .large-media video {
+  width: 40rem;
+  margin: 2rem 1.5rem;
+}
+
 /*Header*/
 header {
   line-height: 2rem;
@@ -24,6 +35,7 @@ header {
   height: 4rem;
   background-color: white;
   position: fixed;
+  z-index: 2;
 }
 
 header nav {
@@ -36,11 +48,6 @@ header nav {
 nav div {
   display: flex;
   align-items: center;
-}
-
-ul li {
-  display: inline;
-  padding-left: 1.5rem;
 }
 
 header a {
@@ -57,9 +64,33 @@ header span span {
 }
 
 /*Banner*/
+.banner {
+  background-color: hsl(0, 0%, 80%);
+  margin-bottom: 2rem;
+  position: relative;
+  top: 4rem;
+}
 
+.banner-text {
+  margin: auto;
+  width: 20rem;
+}
+
+.banner-text button {
+  width: 100%;
+  background-color: hsl(0, 0%, 20%);
+}
+ .banner-text button a {
+   color: hsl(0, 0%, 95%);
+   line-height: 2rem;
+ }
 
 /*General Section*/
+.general {
+  border: 1px solid red;
+  background-color: hsl(0, 0%, 100%);
+  padding-top: 2rem;
+}
 
 /*Courses Section*/
 
