@@ -23,24 +23,6 @@ p {
   line-height: 1rem;
 }
 
-.panel-right {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-left: 2.5rem;
-  border: 1px solid hsl(0, 0%, 80%);
-}
-
-.panel-right img {
-  width: 35%;
-  margin: 1rem;
-}
-
-.right-text {
-  width: 65%;
-}
-
 /*Header*/
 header {
   line-height: 2rem;
@@ -140,6 +122,27 @@ header .light {
   flex-direction: column;
 }
 
+.panel-right {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 2.5rem;
+}
+
+.info-right .panel-right {
+  border: 1px solid hsl(0, 0%, 80%);
+}
+
+.panel-right img {
+  width: 35%;
+  margin: 1rem;
+}
+
+.right-text {
+  width: 65%;
+}
+
 .lecture {
   background-color: hsl(0, 0%, 80%);
 }
@@ -162,9 +165,7 @@ header .light {
 .course-row {
   display: flex;
   max-width: 100%;
-  /*justify-content: space-between;*/
   margin: 1rem 3rem;
-
 }
 
 .panel-courses {
@@ -190,10 +191,49 @@ header .light {
 }
 
 /*Thesis Section*/
+.thesis {
+  background-color: hsl(0, 0%, 100%);
+  padding: 2rem 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
 
+.thesis h1 {
+  border: 1px solid red;
+  width: 100%;
+  text-align: center;
+}
+
+.thesis-left-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.thesis-left {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
 
 video {
+  width: 100%;
   margin: 2rem 1.5rem;
+}
+
+  /* See .left-text in Information section above that also applies here*/
+
+.thesis-right {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+  /* See .panel-right and .right-text in Information section above that also applies here*/
+
+.fisma {
+  background-color: hsl(0, 0%, 80%);
 }
 
 /*Footer*/
