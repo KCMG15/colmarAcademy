@@ -8,10 +8,16 @@ html {
 body {
   margin: 0;
   padding: 0;
+
 } /*Removes default margin and padding (that causes space above header).*/
 
-/*.flex{
+.flex {
   display: flex;
+}
+
+/*section {
+  max-width: 960px;
+  margin: auto;
 }*/
 
 a {
@@ -71,7 +77,6 @@ header .light {
 .banner {
   background-color: hsl(0, 0%, 80%);
   width: 100%;
-  display: flex;
   flex-direction: row;
   align-items: center;
   position: relative;
@@ -81,7 +86,9 @@ header .light {
 .banner img {
   width: 60%;
   object-fit: contain;
-  margin: 2rem 1.5rem;
+  margin: 2rem 0;
+  padding: 0 1.5rem;
+  box-sizing: border-box;
 }
 
 .banner-text {
@@ -95,7 +102,6 @@ header .light {
   padding-top: 4rem;
   padding-bottom: 2rem;
   width: 100%;
-  display: flex;
   align-items: center;
 }
 
@@ -108,12 +114,15 @@ header .light {
 .info-left img {
   width: 100%;
   object-fit: contain;
-  margin: 2rem 1.5rem;
+  /*margin: 1rem 0;*/
+  padding: 1rem 1.5rem;
+  box-sizing: border-box;
 }
 
 .left-text {
   min-width: 100%;
-  margin: 0 1.5rem;
+  padding: 0 1.5rem;
+  box-sizing: border-box;
 }
 
 .info-right {
@@ -127,16 +136,16 @@ header .light {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-left: 2.5rem;
 }
 
 .info-right .panel-right {
   border: 1px solid hsl(0, 0%, 80%);
+  box-sizing: border-box;
 }
 
 .panel-right img {
   width: 35%;
-  margin: 1rem;
+  padding: 1rem;
 }
 
 .right-text {
@@ -152,7 +161,6 @@ header .light {
   background-color: hsl(0, 0%, 90%);
   padding-top: 2rem;
   width: 100%;
-  display: flex;
   flex-direction: column;
 }
 
@@ -194,7 +202,6 @@ header .light {
   background-color: hsl(0, 0%, 100%);
   padding: 2rem 0;
   width: 100%;
-  display: flex;
   flex-direction: column;
 }
 
@@ -217,7 +224,9 @@ header .light {
 
 video {
   width: 100%;
-  margin: 2rem 1.5rem;
+  margin: 1rem 0;
+  padding: 0 1.5rem;
+  box-sizing: border-box;
 }
 
   /* See .left-text in Information section above that also applies here*/
