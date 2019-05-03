@@ -139,14 +139,12 @@ header .mobile {
 
 .info-left {
   width: 60%;
-  display: flex;
   flex-direction: column;
 }
 
 .info-left img {
   width: 100%;
   object-fit: contain;
-  /*margin: 1rem 0;*/
   padding: 1rem 1.5rem;
   box-sizing: border-box;
 }
@@ -159,7 +157,6 @@ header .mobile {
 
 .info-right {
   width: 40%;
-  display: flex;
   flex-direction: column;
 }
 
@@ -215,7 +212,6 @@ header .mobile {
 }
 
 .course-row {
-  display: flex;
   max-width: 100%;
   margin: 1rem 3rem;
 }
@@ -257,14 +253,13 @@ header .mobile {
 }
 
 .thesis-left-right {
-  display: flex;
+  /*display: flex;*/
   flex-direction: row;
   align-items: center;
 }
 
 .thesis-left {
   width: 60%;
-  display: flex;
   flex-direction: column;
 }
 
@@ -279,7 +274,6 @@ video {
 
 .thesis-right {
   width: 40%;
-  display: flex;
   flex-direction: column;
 }
 
@@ -291,11 +285,11 @@ video {
 
 /*Footer*/
 hr {
-    border: 0;
-    height: 1px;
-    background: #333;
-    background-image: linear-gradient(to right, #ccc, #333, #ccc);
-    margin: 0;
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  margin: 0;
 }
 
 footer {
@@ -305,14 +299,12 @@ footer {
 }
 
 footer nav {
-  display: flex;
   align-items: center;
   justify-content: space-between;
   margin: 1rem 1.5rem;
 }
 
 nav div {
-  display: flex;
   align-items: center;
 }
 
