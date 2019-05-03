@@ -15,10 +15,10 @@ body {
   display: flex;
 }
 
-/*section {
+.content-container {
   max-width: 960px;
   margin: auto;
-}*/
+}
 
 a {
   text-decoration: none; /* Removes underline from links*/
@@ -71,6 +71,12 @@ header .bold {
 
 header .light {
   color: hsl(0, 0%, 55%);
+}
+
+@media only screen and (max-width: 560px) {
+  header .bold, header .light {
+    display: none;
+  }
 }
 
 /*Banner Section*/
@@ -177,6 +183,7 @@ header .light {
 
 .panel-courses {
   background-color: hsl(0, 0%, 100%);
+  min-width: 17%;
 }
 
 .row-1 .panel-courses {
