@@ -188,7 +188,18 @@ header .mobile {
   background-color: hsl(0, 0%, 80%);
 }
 
-
+@media only screen and (max-width: 595px) {
+  .info-left {
+    display: none;
+  }
+  .info-right {
+    width: 100%;
+    flex-direction: column;
+  }
+  .right-text {
+    width: 100%;
+  }
+}
 
 /*Courses Section*/
 .courses {
