@@ -73,11 +73,22 @@ header .light {
   color: hsl(0, 0%, 55%);
 }
 
-@media only screen and (max-width: 560px) {
-  header .bold, header .light {
+header .mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 595px) {
+  header .desktop {
     display: none;
   }
+  header .mobile {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
 }
+
+
 
 /*Banner Section*/
 .banner {
