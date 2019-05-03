@@ -88,8 +88,6 @@ header .mobile {
   }
 }
 
-
-
 /*Banner Section*/
 .banner {
   background-color: hsl(0, 0%, 80%);
@@ -111,6 +109,23 @@ header .mobile {
 .banner-text {
   margin: auto;
   width: 40%;
+}
+
+@media only screen and (max-width: 595px) {
+  .banner {
+    flex-direction: column;
+  }
+  .banner img {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .banner-text {
+    width: auto;
+    margin: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 /*Information Section*/
@@ -172,6 +187,8 @@ header .mobile {
 .lecture {
   background-color: hsl(0, 0%, 80%);
 }
+
+
 
 /*Courses Section*/
 .courses {
