@@ -1,7 +1,8 @@
 /*Universal*/
 html {
-  font-family: "Roboto", sans-serif;
+  font-family: "Cuprum", sans-serif;
   font-size: 16px;
+  letter-spacing: 0.025em;
   color: hsl(0, 0%, 20%);
 }
 
@@ -22,8 +23,7 @@ body {
 a {
   text-decoration: none; /* Removes underline from links*/
   color: #4a4a4a;
-  transition-timing-function: ease-in;
-  transition-duraton: .5s;
+  transition: font-weight 0.33s ease-in-out;
 }
 
 a:hover {
@@ -33,6 +33,12 @@ a:hover {
 p {
   font-size: 0.75rem;
   line-height: 1.2;
+}
+
+button {
+  width: 100%;
+  line-height: 2;
+  font-family: "Cuprum"
 }
 
 /*Header*/
@@ -116,11 +122,6 @@ header .mobile {
 
 .banner-text h1, .banner-text p {
   width: auto;
-}
-
-button {
-  width: 100%;
-  line-height: 2;
 }
 
 @media only screen and (max-width: 595px) {
