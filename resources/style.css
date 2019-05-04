@@ -215,6 +215,10 @@ header .mobile {
   text-align: center;
 }
 
+.courses .mobile {
+  display: none;
+}
+
 .course-row {
   max-width: 100%;
   margin: 1rem 3rem;
@@ -256,11 +260,11 @@ header .mobile {
   }
   .courses .mobile {
     border: 1px solid blue;
+    display: flex;
     width: 100%;
     flex-direction: column;
     align-items: center;
     padding: 1rem;
-
   }
   .courses .mobile p {
     border: 1px solid yellow;
@@ -268,9 +272,6 @@ header .mobile {
     background-color: hsl(0, 0%, 90%);
     padding: 1rem 1rem 1.5rem 1rem;
     width: 100%;
-  }
-  .courses h1 {
-    /*padding-bottom: -0.5rem;*/
   }
 }
 
@@ -285,6 +286,10 @@ header .mobile {
 .thesis h1 {
   width: 100%;
   text-align: center;
+}
+
+.thesis .mobile {
+  display: none;
 }
 
 .thesis-left-right {
@@ -316,6 +321,15 @@ video {
 
 .fisma {
   background-color: hsl(0, 0%, 80%);
+}
+
+@media only screen and (max-width: 595px) {
+  .thesis .desktop {
+    display: none;
+  }
+  .thesis .mobile {
+    display: block;
+  }
 }
 
 /*Footer*/
