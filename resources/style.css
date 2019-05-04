@@ -38,7 +38,9 @@ p {
 button {
   width: 100%;
   line-height: 2;
-  font-family: "Cuprum"
+  font-family: "Cuprum";
+  letter-spacing: 0.4em;
+  color: hsl(0, 100%, 40%);
 }
 
 /*Header*/
@@ -122,6 +124,18 @@ header .mobile {
 
 .banner-text h1, .banner-text p {
   width: auto;
+  text-align: center;
+}
+
+.banner-text h1 {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.banner-text p {
+  font-size: 1.25rem;
+  font-weight: 500;
+  padding: 1rem 0;
 }
 
 @media only screen and (max-width: 595px) {
