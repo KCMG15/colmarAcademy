@@ -223,20 +223,20 @@ header .mobile {
   text-align: center;
 }
 
-blockquote {
+ blockquote {
   padding: 1.5rem 0;
 }
 
-cite {
+ cite {
   font-size: .75rem;
 }
 
-h2 {
+ h2 {
   font-size: 1.2rem;
   font-weight: 600;
 }
 
-.info p {
+ .info p {
   padding: 0.5rem 0;
 }
 
@@ -271,7 +271,7 @@ h2 {
   .info h2, .info p {
     text-align: center;
   }
-
+}
 
 /*Courses Section*/
 .courses {
