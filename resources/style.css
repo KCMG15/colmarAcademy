@@ -7,8 +7,8 @@ html {
 
 body {
   margin: 0;
-  padding: 0;
-} /*Removes default margin and padding (that causes space above header).*/
+  padding: 0; /*Removes default margin and padding (that causes space above header).*/
+}
 
 .flex {
   display: flex;
@@ -21,6 +21,13 @@ body {
 
 a {
   text-decoration: none; /* Removes underline from links*/
+  color: #4a4a4a;
+  transition-timing-function: ease-in;
+  transition-duraton: .5s;
+}
+
+a:hover {
+  font-weight: bold;
 }
 
 p {
@@ -53,10 +60,6 @@ nav div {
 ul li {
   display: inline;
   padding-left: 1rem;
-}
-
-header a {
-  color: #4a4a4a;
 }
 
 header span {
@@ -195,6 +198,10 @@ button {
   width: 65%;
 }
 
+.info a {
+  color: hsl(200, 100%, 45%);
+}
+
 .lecture {
   background-color: hsl(0, 0%, 80%);
 }
@@ -295,14 +302,6 @@ button {
     background-color: hsl(0, 0%, 90%);
     padding: 1rem 1rem 1.5rem 1rem;
     width: 100%;
-  }
-  .courses .mobile button {
-    width: 100%;
-    line-height: 3;
-    padding: 0;
-    margin: 0 1rem;
-    border: 1px solid red;
-    text-align: left;
   }
 }
 
