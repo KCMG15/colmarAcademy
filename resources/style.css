@@ -257,6 +257,7 @@ header .mobile {
     flex-direction: column;
     align-items: center;
     padding: 2rem 2rem 0.5rem 2rem;
+    width: auto;
   }
   .courses .mobile {
     border: 1px solid blue;
@@ -330,6 +331,11 @@ video {
   .thesis .mobile {
     display: block;
   }
+  video {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
 }
 
 /*Footer*/
@@ -365,4 +371,20 @@ ul li {
 footer a, .footer-text {
   color: #4a4a4a;
   font-size: 14px;
+}
+
+@media only screen and (max-width: 595px) {
+  footer ul {
+    display: none;
+  }
+  hr {
+    display: none;
+  }
+  footer {
+    border: 1px solid blue;
+    padding: 0;
+  }
+  footer nav {
+    border: 1px solid red;
+  }
 }
