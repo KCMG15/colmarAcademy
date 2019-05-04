@@ -8,7 +8,6 @@ html {
 body {
   margin: 0;
   padding: 0;
-
 } /*Removes default margin and padding (that causes space above header).*/
 
 .flex {
@@ -177,6 +176,10 @@ header .mobile {
   padding: 1rem;
 }
 
+#mobile-img {
+  display:none
+}
+
 .right-text {
   width: 65%;
 }
@@ -190,15 +193,24 @@ header .mobile {
     display: none;
   }
   .info-right {
-    width: auto;
-    flex-direction: column;
-    align-items: center;
-  }
-  .right-text {
     width: 100%;
+  }
+  .panel-right {
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    box-sizing: border-box;
+    padding: 1rem;
   }
   .panel-right img {
+    display: none;
+  }
+  #mobile-img {
+    display: block;
     width: 100%;
+  }
+  .info-right .panel-right {
+    border: 0;
   }
 }
 
@@ -335,6 +347,9 @@ video {
     width: 100%;
     margin: 0;
     padding: 0;
+  }
+  .thesis h1 {
+    padding-bottom: 1rem;
   }
 }
 
