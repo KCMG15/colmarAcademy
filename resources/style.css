@@ -217,6 +217,29 @@ header .mobile {
   color: hsl(200, 100%, 45%);
 }
 
+.info h1, .thesis h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+blockquote {
+  padding: 1.5rem 0;
+}
+
+cite {
+  font-size: .75rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.info p {
+  padding: 0.5rem 0;
+}
+
 .lecture {
   background-color: hsl(0, 0%, 80%);
 }
@@ -245,7 +268,10 @@ header .mobile {
   .info-right .panel-right {
     border: 0;
   }
-}
+  .info h2, .info p {
+    text-align: center;
+  }
+
 
 /*Courses Section*/
 .courses {
