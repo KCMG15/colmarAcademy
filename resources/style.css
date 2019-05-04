@@ -110,6 +110,11 @@ header .mobile {
   width: 40%;
 }
 
+button {
+  width: 100%;
+  line-height: 2rem;
+}
+
 @media only screen and (max-width: 595px) {
   .banner {
     flex-direction: column;
