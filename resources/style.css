@@ -45,6 +45,7 @@ button {
   font-family: "Cuprum";
   letter-spacing: 0.4em;
   color: hsl(0, 100%, 40%);
+  font-weight: 600;
 }
 
 /*Header*/
